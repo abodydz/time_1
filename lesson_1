@@ -1,0 +1,18 @@
+import time
+-----
+a = time.time() 
+print(a)
+# it'll print the second since the library was made .
+-----
+b = time.ctime()
+print(b)
+# it'll print the date ; year , month , day , hour , second 
+# when add a numbers ( seconds ) between () it'll print the time of that sec .
+-----
+c = time.perf_counter()
+print(c)
+# it'll print the time since the code was started .
+-----
+d = time.localtime()
+print(d)
+# it'll print the exact time .
